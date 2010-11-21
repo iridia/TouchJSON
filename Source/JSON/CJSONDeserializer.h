@@ -33,6 +33,8 @@ extern NSString *const kJSONDeserializerErrorDomain /* = @"CJSONDeserializerErro
 
 @interface CJSONDeserializer : NSObject {
 
+	NSOperationQueue *operationQueue;
+
 }
 
 + (id)deserializer;
